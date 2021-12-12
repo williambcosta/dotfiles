@@ -74,10 +74,9 @@ set laststatus=2
 
 " Show white spaces
 set list
-                                 
 
 " Change the list of hidden caracters for end of line, multispace, tabs and trail space
-set lcs=eol:¶, multispace:·, tab:»\ , trail:·
+set lcs=eol:¶,multispace:·,tab:»\ ,trail:·
 
 " PLUGINS {{{
 " To install the plugins type :PlugInstall
