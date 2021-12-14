@@ -9,6 +9,7 @@ end
 function fish_user_key_bindings
     bind \cC kill-whole-line
     bind \cH backward-kill-bigword
+    bind \e\[C forward-word
 end
 
 # "Alias" to help versionate the users dotfiles. It calls git passing $HOME/.dotfiles
