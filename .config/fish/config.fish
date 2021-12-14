@@ -11,7 +11,7 @@ function fish_user_key_bindings
     bind \cH backward-kill-bigword
 end
 
-# "Alias" to help versionate the dotfiles it calls git passing $HOME/.dotfiles
+# "Alias" to help versionate the users dotfiles. It calls git passing $HOME/.dotfiles
 # as the bare directory and $HOME as the working tree plus the arguments typed
 function dfconfig
     git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME $argv
