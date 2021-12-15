@@ -34,7 +34,7 @@ alias dfconfig='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 It may vary depend of your chosen shell, so make sure to adapt this command if necessary. For example, fish shell doesn't have aliases, so you have to create a function.
 
 ```sh
-# In fish shell you have to add the $argv to allow passing arguments for the function.
+# In fish shell you have to add the $argv to allow passing arguments to the function.
 # Don't forget to save the function with funcsave or put this in your fish config file.
 function dfconfig
     git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME $argv
