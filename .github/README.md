@@ -13,7 +13,7 @@ One way is to do this all by yourself copying the files in a backup folder, usin
 
 [GNU Stow](https://www.gnu.org/software/stow/) is a symlink farm manager. In other words, it take what you want to manage, puts it in a directory and create a symlink to it in the original place. It works great and is relatively easy to find a good tutorial in the internet to learn how to use it for manage your dotfiles.
 
-But, as I don't have a lot of things to manage it is a little to much for me. But I'll definitely will consider change method as the number of files I want to track grow.
+But, as I don't have a lot of things to manage it is a little to much for me. But I'll definitely consider to change method as the number of files I want to track grow.
 
 ## Configuration
 
