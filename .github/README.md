@@ -1,21 +1,21 @@
-# Introduction
+## Introduction
 
 Searching for an elegant way to backup my dotfiles, I found this [article](https://www.atlassian.com/git/tutorials/dotfiles) from [Nicola Paolucci](https://twitter.com/durdn). With this solution, is easier to do so, with the benefit of version control.
 
 
-# Alternatives
+## Alternatives
 
 Before we start is good to know some alternatives that you may find easier, or more convenient for you to try.
 
 One way is to do this all by yourself copying the files in a backup folder, using a usb drive, etc. Some people use [GNU Stow](https://www.gnu.org/software/stow/) for this purpose.
 
-## GNU Stow
+### GNU Stow
 
 [GNU Stow](https://www.gnu.org/software/stow/) is a symlink farm manager. In other words, it take what you want to manage, puts it in a directory and create a symlink to it in the original place. It works great and is relatively easy to find a good tutorial in the internet to learn how to use it for manage your dotfiles.
 
 But, as I don't have a lot of things to manage it is a little to much for me. But I'll definitely will consider change method as the number of files I want to track grow.
 
-# Configuration
+## Configuration
 
 We will use git to keep track of our files, and you can store them in a remote repo, if you want.
 
@@ -49,7 +49,7 @@ echo ".dotfiles" >> $HOME/.gitignore
 ```
 
 
-# Usage
+## Usage
 
 With everything done, you can manage your dotfiles the same way as any git repo, but using dfconfig instead of the git command.
 
@@ -69,7 +69,7 @@ dfconfig remote add origin <git-repo-url>
 ```
 
 
-# Installing your dotfiles in a new system
+### Installing your dotfiles in a new system
 
 Clone your files into a bare repository in your Home directory:
 
