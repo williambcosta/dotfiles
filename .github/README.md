@@ -31,7 +31,7 @@ Now to help manage the files you have to create an alias for the git command pas
 alias dfconfig='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 ```
 
-It may vary depend of your chosen shell, so make sure to adapt this command if necessary. For example, fish shell doesn't have aliases, so you have to create a function.
+It may vary depending of your chosen shell, so make sure to adapt this command if necessary. For example, fish shell doesn't have aliases, so you have to create a function.
 
 ```sh
 # In fish shell you have to add the $argv to allow passing arguments to the function.
