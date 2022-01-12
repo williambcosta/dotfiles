@@ -13,6 +13,6 @@ end
 
 # "Alias" to help versionate the users dotfiles. It calls git passing $HOME/.dotfiles
 # as the bare directory and $HOME as the working tree plus the arguments typed
-function dfconfig
+function dfc
     git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME $argv
 end
