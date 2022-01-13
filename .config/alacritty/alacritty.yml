@@ -222,7 +222,7 @@ schemes:
   one-dark: &one-dark
     primary:
       background: '#262626'
-      foreground: '#abb2bf'
+      foreground: '#d7dadf'
     cursor:
       text: CellBackground
       cursor: '#528bff'
